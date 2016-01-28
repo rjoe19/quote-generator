@@ -1,14 +1,22 @@
 body {
 	font-family: 'Press Start 2P', cursive;
 	text-align: center;
+<<<<<<< HEAD
    background-image: url("../img/duke.jpg");
+=======
+   background-image: url("/img/duke.jpg");
+>>>>>>> e0c28c9e229e870e02d64648f500554386e5d8d0
   	background-position: top;
   	background-size: auto;
 
 }
 
 #speech {
+<<<<<<< HEAD
 	background-image: url("../img/speech.png");
+=======
+	background-image: url("/img/speech.png");
+>>>>>>> e0c28c9e229e870e02d64648f500554386e5d8d0
 	background-repeat: no-repeat;
 	background-size:100%;
 	width: 40%;
@@ -33,7 +41,11 @@ body {
 }*/
 
 #dukeBut {
+<<<<<<< HEAD
 	background: url("../img/quote.png") no-repeat center;
+=======
+	background: url("/img/quote.png") no-repeat center;
+>>>>>>> e0c28c9e229e870e02d64648f500554386e5d8d0
 	background-size: contain;
 	height: 200px;
 	bottom: 0;
