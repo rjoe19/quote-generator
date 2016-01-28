@@ -1,0 +1,62 @@
+body {
+	font-family: 'Press Start 2P', cursive;
+	text-align: center;
+   background-image: url("../img/duke.jpg");
+  	background-position: top;
+  	background-size: auto;
+
+}
+
+#speech {
+	background-image: url("../img/speech.png");
+	background-repeat: no-repeat;
+	background-size:100%;
+	width: 40%;
+	height: 350px;
+	max-width:470px; 
+ 	max-height:100%;
+  	background-size: contain;
+  	font-size: 1.2vw;
+  	text-align: middle;
+  	margin: 20px 10px 0 10px;
+  	padding:50px 15px 0 15px;
+}
+
+/*#dukeButton {
+	background: url("https://45.media.tumblr.com/e0fed2a0e431a9c599a5f858c7b78bf3/tumblr_nh1x2ch9kd1s0yoylo1_1280.gif") no-repeat center;;
+  	background-size: contain;
+  	height: 60px;
+  	bottom: 0;
+	position: absolute;
+	width: 100%;
+	margin-bottom: 295px;
+}*/
+
+#dukeBut {
+	background: url("../img/quote.png") no-repeat center;
+	background-size: contain;
+	height: 200px;
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+	margin-bottom: 100px;
+}
+
+.hvr-skew-forward {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+.hvr-skew-forward:hover, .hvr-skew-forward:focus, .hvr-skew-forward:active {
+  -webkit-transform: skew(-10deg);
+  transform: skew(-10deg);
+}
